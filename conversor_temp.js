@@ -22,12 +22,13 @@
         
         //Fluxo para converção de F -> C
         let updatedDegree = Number(degree.toUpperCase().replace("F", "")); 
-        let formula = fahrenheit => (fahrenheit - 32) * 5/9
+        let formula = fahrenheit => (fahrenheit - 32) * 5/9 //arrow function
         let degreeSign = '°C'
         
+        //Fluxo para converção de C -> F
         if(celsiusExists){
             updatedDegree = Number(degree.toUpperCase().replace("C", "")); 
-            formula = celsius => celsius * 9/5 + 32
+            formula = celsius => celsius * 9/5 + 32 //arrow function
             degreeSign = '°F'
         }
         
