@@ -12,6 +12,36 @@
 const booksByCategory = [
     {
         category: 'Riqueza',
-        books: [ ],
-    }
-]
+        books: [ 
+            {
+                title: "Os segredos da mente milionaria",
+                author:"T. Harv Eker",
+            },
+            {
+                title: "O Homem mais rico da babilonia",
+                author:"George S. Clason",
+            },
+            {
+                title: "Pai rico, Pai pobre",
+                author:"Robert T. Kiyosaki e Sharon L. Lechter",
+            },
+        ],
+    },
+    {
+       category: 'Inteligencia Emocional',
+        books: [
+            {
+                title: "Você é insubstituivel",
+                author:"Augusto Cury",
+            },
+            {
+                title: "Ansiedade - Como enfrentar o mal do século",
+                author:"Augusto Cury",
+            },
+            {
+                title: "Os 7 habitos das pessoas altamente eficazes",
+                author:"Stephen R. Covey",
+            },
+        ], 
+    },
+];
