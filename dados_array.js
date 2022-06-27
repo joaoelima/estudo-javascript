@@ -83,8 +83,8 @@ function booksOfAuthor(author) {
             }
         }
     }
-
-    console.log(`Livros do autor ${author}:, ${books}`)
+                                                     //join para separar as palavras.
+    console.log(`Livros do autor ${author}: ${books.join(", ")}`)
 }
 
 booksOfAuthor('Nome do autor');
