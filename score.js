@@ -36,6 +36,7 @@ function getScore(score){
 }
 
 
-getScore(101)
-getScore(-1)
-getScore(0)
+console.log(getScore(-1))
+console.log(getScore(0))
+console.log(getScore(101))
+console.log(getScore(85))
