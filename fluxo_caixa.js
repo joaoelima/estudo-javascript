@@ -47,4 +47,5 @@ function calculateBalance() {
     console.log(`Seu saldo é ${balanceText}: ${total.toFixed(2)}`)
 }
 
+//chamada da função para mostrar as informações.
 calculateBalance()
